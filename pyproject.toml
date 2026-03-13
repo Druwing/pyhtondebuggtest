@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyhtondebuggtest"
+version = "0.1.0"
+description = ""
+authors = ["Druwing <juan.santos@aln.senaicimatec.edu.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^3.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
